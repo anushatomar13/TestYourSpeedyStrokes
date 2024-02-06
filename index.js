@@ -23,7 +23,7 @@ var wrongWords = 0;
 var totalWords = 0;
 var currentWord = 0;
 var typingParagraph = [
-  "Taylor Swift is a globally renowned singer-songwriter celebrated for her chart-topping hits, authentic lyrics, and evolving musical style. With numerous awards and record-breaking albums, she continues to captivate audiences worldwide with her talent and creativity."];
+  "Taylor Swift is a globally renowned singer-songwriter celebrated for her chart-topping hits, authentic lyrics, and evolving musical style."];
 
 
 
