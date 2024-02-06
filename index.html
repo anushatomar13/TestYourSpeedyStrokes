@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="description"
+    content="Typing Test website for checking your typing speed. This Typing Test Website for students to speed up their typing skill.  Improve your typing speed by panditprogrammer.com Check Your typing test in 5 minutes. Tracking Accuracy of Your typing speed realtime. Create website using javascript for typing test on web by panditprogrammer.com, panditprogrammer typing test website. typing test website by panditprogrammer.com, typing website for accuracy check by panditprogrammer">
+  <meta name="keywords"
+    content="Typing Website , typing game,typing test in one minute, Pandit programmer typing test. Typing accuracy ,check your typing speed., accuracy of typing , typing test website,panditprogrammer typing website, panditprogrammer typing test, pandit programmer typing ">
+  <title>T</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- fontawesome  -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- favicons  -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+  <header>
+
+    <div class="header_container">
+      <div class="logo">TestYourSpeedyStrokes</div>
+      <nav>
+        <a href="index.html" class="nav_item" title="Home"><i class="fas fa-home"></i></a>
+        <span class="nav_item" title="Restart" id="restart"><i class="fas fa-redo"></i></span>
+        <span class="nav_item" title="Timer"><i class="far fa-clock">
+            <select name="time" id="time_select">
+              <option value="1">1:00 Min</option>
+              <option value="2">2:00 Min</option>
+              <option value="5">5:00 Min</option>
+              <option value="10">10:00 Min</option>
+              <option value="30">30:00 Min</option>
+            </select>
+          </i></span>
+        <span class="nav_item" title="Stop Timer" id="stop_timer"><i class="fas fa-power-off"></i></a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <h1 class="heading1">Typing Test : Test Your Typing Speed</h1>
+  <h4 class="heading4">Challenge Yourself</h4>
+
+  <div class="container">
+    <div id="container">
+
+      <div class="inner-container ">
+        <p class="text-1" id="cWord"></p>
+        <p id="text-text" class="text-1"></p>
+      </div>
+      <div class="inner-container">
+        <input type="text" placeholder="Type here to start" id="typing-area" autocomplete="off">
+      </div>
+      <div class="inner-container" id="dispi">
+        <p class="typed">Typed Words <span id="tTyped">0</span></p>
+        <p class="typed">Correct Words <span id="correct">0</span></p>
+        <p class="typed">Wrong Words <span id="wrong">0</span></p>
+
+      </div>
+      <h1 id="score">Start!</h1>
+
+    </div>
+    <div class="res" id="result" style="display: none;">
+      <h1 class="speed">Your Typing Speed is</h1>
+      <div id="wpm">
+        <h1 class="" id="wordpm"></h1>
+      </div>
+      <p id="wp">wpm</p>
+      <h1 id="and">And</h1>
+      <h1 id="acc">Accuracy is</h1>
+      <h1 id="accuracy"></h1>
+      <a href="index.html" class="nav_item" id="start_btn">RESTART</a>
+    </div>
+
+  </div>
+
+
+
+  <footer>
+    <div class="footer">
+      <span>&copy; All Rights are reserved by <a href="http://github.com/anushatomar13"
+          target="blank"><href>www.github.com/anushatomar13</href></a> 2023.
+        </span>
+      <span> Developed by <a href="http://github.com/anushatomar13">Anusha Tomar</a> </span>
+    </div>
+  </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
